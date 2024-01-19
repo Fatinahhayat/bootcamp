@@ -1,0 +1,56 @@
+
+header {
+    background-color: #333;
+    padding-top: 2em;
+    display: flex;
+    justify-content: center;
+}
+body {
+    background-color: #333;
+}
+nav {
+    color: cornsilk;
+    display: inline;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+  
+.typewriter h1 {
+    color: cornsilk;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    text-align: center;
+    overflow: hidden;
+    border-right: 0.15em solid cornsilk;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .1em;
+    animation:
+        typing 3.5s steps(30, end),
+        blink-caret .75s step-end infinite;
+}
+@keyframes typing {
+    from{ width: 0}
+    to { width: 100%}
+}
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: cornsilk; }
+}
+p {
+    color: cornsilk;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 525;
+
+}
+h2 {
+    color: cornsilk;
+    font-family: 'Courier New', Courier, monospace;
+}
+footer {
+    color: cornsilk;
+    font-size: 20px;
+}
+
+

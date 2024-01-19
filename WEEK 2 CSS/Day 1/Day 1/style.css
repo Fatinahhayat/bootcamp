@@ -1,0 +1,25 @@
+ * { 
+    background-color: rgb(246, 143, 153);
+    
+}
+h1 {
+    color:cornsilk;
+}
+p {
+    color:cornsilk;
+}
+h2 {
+    color:blue;
+}
+#id {
+    color: green;
+} 
+.class {
+    color:darkcyan;
+
+} 
+
+/* to apply group element 
+h1, h2, p {
+    color: blueviolet;
+} */

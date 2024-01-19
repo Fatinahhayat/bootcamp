@@ -1,0 +1,36 @@
+body {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* fr stands from fraction so 1fr means one fraction,
+    if you type 2fr is will give two fractions of space to that column */
+    grid-template-rows: 100px 100px 100px;
+}
+div {
+    background-color: blueviolet;
+}
+.div1 {
+    grid-column-start: 1;
+    /* end needs to be the column you want to end at +1 */
+    grid-column-end: 4; 
+    /* another way to achieve mergerd columns is below 
+    grid-column: 1/span 3; */
+    text-align: center;
+    background-color: green;
+}
+
+.div2 {
+    grid-column-start: 1/span 1;
+    grid-row: 2/span 2;
+}
+
+.div3 {
+    grid-column: 2/ span 1;
+}
+.div4 {
+    grid-column: 3/ span 1;
+}
+.div5 {
+    grid-column: 2/ span 2;
+}
+

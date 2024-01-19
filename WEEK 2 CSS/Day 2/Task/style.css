@@ -1,0 +1,50 @@
+* {
+    background-color: cornsilk;
+    padding: 2px;
+}
+
+.heading {
+    background-color: cornsilk ;
+    color: rgb(236, 55, 55);
+    text-align: center;
+    font-family: 'Vina Sans', sans-serif;
+
+    
+
+}
+    .img1 {
+        width: 412.1px;
+        height: 274.7px;
+        border: 1px solid rgb(236, 55, 55);
+        padding: 10px;
+        margin-top: 20px;
+    
+
+    }
+
+    #nav {
+        display: inline;
+        padding: 10px;
+        padding-left: 75px;
+        margin-bottom: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    .img2   {
+        width: 448px;
+        height: 672px;
+        border: 1px solid rgb(255, 55, 55);
+        padding: 10px;
+    
+    }
+    .table {
+        padding: 50px;
+        border: 1px solid rgb(255, 55, 55);
+    }
+    legend {
+        font-family: 'Vina Sans', sans-serif;
+        font-size: 30px;
+    
+    }
+   

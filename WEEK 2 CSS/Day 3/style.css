@@ -1,0 +1,13 @@
+p[class] {
+    background-color: blue;
+}
+
+
+
+h1[class] {
+    background-color: green;
+}
+
+h1[class="h"] {
+    background-color: blue;
+}

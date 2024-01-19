@@ -1,0 +1,26 @@
+.container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 50px 200px 50px;
+}
+.Header {
+    grid-column: 1/span 3;
+    background-color: rgb(209, 179, 46)
+    
+}
+.Article {
+    background-color: rgb(209, 179, 46)
+}
+.Footer {
+    grid-column: 1/span 3;
+    background-color: rgb(209, 179, 46)
+    
+}
+.Nav {
+    background-color: rgb(209, 179, 46)
+}
+.Ads {
+    background-color: rgb(209, 179, 46) 
+}
+

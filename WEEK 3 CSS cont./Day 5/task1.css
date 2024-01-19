@@ -1,0 +1,37 @@
+.container .div1{
+    background-color: blue;
+    height: 50px;
+    z-index: 2;
+    position: relative;
+    top: 30px;
+    transition: 2s;
+}
+.container .div2{
+    background-color: rgb(108, 108, 207);
+    height: 50px;
+    position: relative;
+    top: 10px;
+    z-index: 0;
+    transition: 2s;
+}
+.container .div3{
+    background-color: rgb(18, 18, 60);
+    height: 50px;
+    z-index: 1;
+    transition: 2s;
+}
+.div1:hover{
+    z-index: 2;
+    box-shadow: 2px 2px 5px red;
+    width: 100px;
+}
+.div2:hover{
+    z-index: 2;
+    box-shadow: 2px 2px 5px red;
+    width: 100px;
+}
+.div3:hover{
+    z-index: 2;
+    box-shadow: 2px 2px 5px red;
+    width: 100px;
+}

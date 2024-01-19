@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    display: flex;
+    padding-top: 1 rem;
+    font-family: 'Times New Roman', Times, serif
+
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-wrap: wrap;
+    width: 300px;
+    justify-content: space-evenly;
+}
+.card1 .card2 .card3{
+    background-color: grey;
+    margin: 30px;
+    
+}
+

@@ -1,0 +1,56 @@
+/* body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+   align-content: center;
+} */
+.div1{
+    margin: 100px 200px 100px 300px; /*top right bottom left */
+    height: 100px;
+    width: 100px;
+    background-color: rgb(107, 220, 220);
+    border: 2px solid blue;
+    /* box-shadow: h-offset v-offset / blur, spread, color, inset - required on safari */
+    box-shadow: 5px 5px 10px 1px pink inset;
+    /* use inset to have shadow inside the box, leave out to have shadow outside the box */
+    /* to put a shadow inside and outside the box use both separates by a commer */
+    /* box-shadow: 
+        10px 10px 10px black,
+        inset 0 0 10px black; */
+        transition: box-shadow 2s;
+}
+.div1:hover{
+    box-shadow: 
+    10px 10px 10px black,
+    inset 0 0 10px black;
+}
+p {
+    text-shadow: 1px 1px 2px blue;
+    font-size: 20px;
+}
+.contain .firstdiv {
+    background-color: blueviolet;
+    height: 40px;
+    position: relative;
+    top: 20px;
+}
+.contain .seconddiv {
+    background-color: rgb(189, 94, 189);
+    height: 40px;
+    position: relative;
+    top: 20px;
+    z-index: 1;
+}
+.contain .thirddiv {
+    background-color: rgb(238, 156, 238);
+    height: 40px;
+    z-index: 0;
+}
+
+/* visbility property */
+.visibility {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    visibility: hidden;
+}

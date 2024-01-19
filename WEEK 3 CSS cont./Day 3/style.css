@@ -1,0 +1,103 @@
+/* local and global */
+
+/* GLOBAL VAR */
+:root {
+    --mainColor: gold;
+    --width: 200px;
+    --align: center;
+}
+.h1 {
+    --size: 40px; /*LOCAL VAR - ONLY ACCESSIBLY HERE*/
+    background-color: var(--mainColor);
+    font-size: var(--size);
+}
+.p1 {
+    color: var(--mainColor);
+    text-align: var(--align);
+}
+.div1{
+    --border: 5px solid;
+    background-color: var(--mainColor);
+    width: var(--width);
+    height: var(--width);
+    border: var(--border) red; /*can manually add in color here if you dont want to add it to the border var above */
+    margin-bottom: 20px;
+}
+
+/* Animation in CSS */
+.div2{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    animation-name: move;
+    animation-duration: 2s;
+    position: relative;
+    margin-bottom: 20px;
+}
+@keyframes move {
+    from{
+        background-color: aqua;
+        left:0px;
+    }
+    to{
+        background-color: darkblue;
+        left: 200px;
+    }
+}
+.div3{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-name: square; /* to bind the keyframe needs to use this name*/
+    animation-duration: 3s;
+    position: relative;
+    animation-delay: 2s;
+    animation-iteration-count: 0;
+}
+@keyframes square {
+    0%{
+        left: 0;
+
+    }
+    25%{
+        left: 200px;
+        top: 0;
+    }
+    50%{
+        left: 200px;
+        top: 200px;
+    }
+    75%{
+        left: 0;
+        top: 200px;
+    }
+    100%{
+        left: 0;
+        top: 0;
+    }
+}
+/* transition property */
+.transition{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    margin: 20px;
+    transition: width 1s, background-color 2s;
+}
+.transition:hover{
+    width:200px;
+    background-color: black;
+}
+/* transform property */
+.transform{
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: purple;
+    transform: translate(100px 100px);
+    transition: 5s;
+}
+.transform:hover{
+    transform: rotate(360deg);
+}
+

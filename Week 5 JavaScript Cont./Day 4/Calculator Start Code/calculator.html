@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Basic Calculator</h2>
+    <form class="container calculator">
+        <input type="number" id="numberone">
+        <p style="display: inline; color:snow;"> + </p>
+        
+        <input type="text" id="numbertwo" />
+        <input type="button" id="sumbtn" value="+" onclick="calculateAdd()" />
+        <input type="button" id="sumbtn" value="-" onclick="calculateMinus()" />
+        <input type="button" id="sumbtn" value="*" onclick="calculateMultiply()" />
+        <input type="button" id="sumbtn" value="/" onclick="calculateDivide()" />
+        <input type="number" id="result" disabled />
+        <input type="button" id="sumbtn" value="SQRT" onclick="calculateSqrt()" />
+        <!-- JS will create a value and insert the result -->
+        <input type="reset" id="reset" name="reset">
+    </form>
+    <script src="calculator.js"></script>
+</body>
+</html>
+
+
+
+
+
+<!--
+Multi-Arithmetic Calc considerations:
+- How can the user choose their operation?
+Option to select the operation
+ 
+- How does the calculating function know which operation is chosen?
+If else or switch statement which checks operator value
+ 
+- Are all the operations supported arithmetically?
+All the operators have arithmetic code to support them
+ 
+- Does our calculating function need any information fed to it?
+Fed with the operations (select) value. -->
+
+
+<!-- // Challenge
+// Create a concept/system where it takes user inputs and feeds back a diferent background color,
+// depending on the values provided.
+// Use DOM, Events and Interactions to achieve this. -->

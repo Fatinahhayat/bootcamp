@@ -1,0 +1,5 @@
+git add . (staged changes)
+
+git commit -m" message in here" (will confirm the changes ready for upload)
+
+git push (send the new data to you repository)
